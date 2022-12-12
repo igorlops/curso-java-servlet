@@ -4,14 +4,14 @@ import java.util.Date;
 
 public class Empresa {
 
-	private int id;
+	private Integer id;
 	private String nome;
 	private Date dataAbertura = new Date();
 	
 	public int getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getNome() {
